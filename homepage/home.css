@@ -47,11 +47,16 @@ section {
 .item {
     display: flex;
     align-items: center;
+    padding: .5em;
 }
 .item img {
     width: 187px;
     border-radius: 8%;
     margin-right: 1cm;
+}
+
+.desc img {
+    width: 2em;
 }
 
 section ul {

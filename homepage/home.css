@@ -82,7 +82,7 @@ section ul {
         --shadow-shade: 200;
     }
 
-    #social-media-wrapper img.bw {
+    .bw {
         -webkit-filter: invert(100%);
         filter: invert(100%);
     }

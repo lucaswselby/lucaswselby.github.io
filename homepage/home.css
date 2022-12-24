@@ -59,6 +59,20 @@ section {
     width: 2em;
 }
 
+.mashup1 {
+    transition: opacity 1s;
+    opacity: 100%;
+    z-index: 1;
+}
+.mashup1:hover {
+    transition: opacity 1s;
+    opacity: 0;
+}
+.mashup2 {
+    position: absolute;
+    z-index: 0;
+}
+
 section ul {
     margin-top: 0;
 }

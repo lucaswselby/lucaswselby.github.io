@@ -146,4 +146,11 @@ section ul {
         margin-bottom: 1em;
         margin-right: 0;
     }
+
+    .mashup1:hover {
+        opacity: 100%;
+    }
+    .mashup2{
+        position: inherit;
+    }
 }

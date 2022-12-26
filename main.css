@@ -125,9 +125,11 @@ summary::-webkit-details-marker, summary::marker {
 }
 details .chevron {
     display: inline;
+    transition: transform .5s;
 }
 details[open] .chevron {
-    transform: rotate(180deg);
+    transition: transform .5s;
+    transform: rotateX(180deg);
 }
 
 /* Images */

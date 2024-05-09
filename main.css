@@ -236,7 +236,6 @@ footer img {
         top: 0;
         left: 5%;
         width: var(--max-w);
-        background-color: var(--bg-color);
         border-bottom: 2px solid var(--active-gray);
         z-index: 9;
     }
@@ -254,12 +253,6 @@ footer img {
         margin: 0;
         padding: 10px 0;
         text-align: center;
-    }
-    header ul li#business-card {
-        display: initial;
-    }
-    header ul li#business-card a {
-        color: var(--bg-color);
     }
     header #name {
         display: block;

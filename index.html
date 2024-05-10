@@ -10,7 +10,8 @@
 	<link rel="canonical" href="https://lucaswselby.github.io/">
 
 	<!-- Favicon -->
-	<link rel="icon" href="homepage/favicon.png" type="image/x-icon">
+	<link rel="icon" href="homepage/favicon.png" id="light-scheme-icon">
+	<link rel="icon" href="homepage/faviconinvert.png" id="dark-scheme-icon">
 
 	<!-- Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -389,4 +390,22 @@
 		<p><a rel="license" target="_blank" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a><br>This work is licensed under a <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</p>
 	</footer>
 </body>
+
+<script type="text/javascript">
+	// https://stackoverflow.com/questions/55170708/detect-if-the-browser-is-using-dark-mode-and-use-a-different-favicon
+	lightSchemeIcon = document.querySelector('link#light-scheme-icon');
+	darkSchemeIcon = document.querySelector('link#dark-scheme-icon');
+	function onUpdate() {
+		if (matcher.matches) {
+			lightSchemeIcon.remove();
+			document.head.append(darkSchemeIcon);
+		} else {
+			document.head.append(lightSchemeIcon);
+			darkSchemeIcon.remove();
+		}
+	}
+	matcher = window.matchMedia('(prefers-color-scheme: dark)');
+	matcher.addListener(onUpdate);
+	onUpdate();
+</script>
 </html>

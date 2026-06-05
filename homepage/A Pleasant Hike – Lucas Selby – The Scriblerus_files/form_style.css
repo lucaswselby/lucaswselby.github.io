@@ -55,12 +55,10 @@
 }
 .cntctfrm_contact_form input[type="text"],
 .cntctfrm_contact_form input[type="file"],
-.cntctfrm_contact_form input[type="email"],
 .cntctfrm_contact_form select,
 .cntctfrm_contact_form textarea,
 .widget .cntctfrm_contact_form input[type="text"],
 .widget .cntctfrm_contact_form input[type="file"],
-.widget .cntctfrm_contact_form input[type="email"],
 .widget .cntctfrm_contact_form select,
 .widget .cntctfrm_contact_form textarea {
 	width: 100%;
@@ -69,12 +67,10 @@
 }
 .cntctfrm_contact_form.cntctfrm_width_default input[type="text"],
 .cntctfrm_contact_form.cntctfrm_width_default input[type="file"],
-.cntctfrm_contact_form.cntctfrm_width_default input[type="email"],
 .cntctfrm_contact_form.cntctfrm_width_default select,
 .cntctfrm_contact_form.cntctfrm_width_default textarea,
 .widget .cntctfrm_contact_form.cntctfrm_width_default input[type="text"],
 .widget .cntctfrm_contact_form.cntctfrm_width_default input[type="file"],
-.widget .cntctfrm_contact_form.cntctfrm_width_default input[type="email"],
 .widget .cntctfrm_contact_form.cntctfrm_width_default select,
 .widget .cntctfrm_contact_form.cntctfrm_width_default textarea {
 	max-width: 320px;
@@ -146,11 +142,9 @@
 }
 .cntctfrm_ltr .cntctfrm_column {
 	float: left;
-	width: 49%;
 }
 .cntctfrm_rtl .cntctfrm_column {
 	float: right;
-	width: 49%;
 }
 .cntctfrm_ltr.cntctfrm_two_columns.cntctfrm_width_default #cntctfrm_first_column,
 .cntctfrm_ltr.cntctfrm_two_columns.cntctfrm_width_default #cntctfrm_submit_first_column {
@@ -178,3 +172,18 @@
 .cntctfrm_contact_form .cptch_input {
 	max-width: 100% !important;
 }
+/*
+     FILE ARCHIVED ON 11:15:18 Jul 15, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:05:19 Jun 05, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 4.548
+  load_resource: 39.582
+  PetaboxLoader3.resolve: 30.304
+  PetaboxLoader3.datanode: 8.344
+*/

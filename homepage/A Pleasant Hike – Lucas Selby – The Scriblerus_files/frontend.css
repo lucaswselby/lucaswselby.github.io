@@ -2,8 +2,8 @@
 
 @font-face {
   font-family: 'MyriadPro-Regular';
-  src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/MyriadPro-Regular.otf')  format('opentype'),
-  url('../fonts/MyriadPro-Regular.woff') format('woff'), url('../fonts/MyriadPro-Regular.ttf')  format('truetype'), url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+  src: url('/web/20220715111517im_/https://thescriblerus.com/wp-content/plugins/accesspress-social-share/fonts/MyriadPro-Regular.eot#iefix') format('embedded-opentype'),  url('/web/20220715111517im_/https://thescriblerus.com/wp-content/plugins/accesspress-social-share/fonts/MyriadPro-Regular.otf')  format('opentype'),
+  url('/web/20220715111517im_/https://thescriblerus.com/wp-content/plugins/accesspress-social-share/fonts/MyriadPro-Regular.woff') format('woff'), url('/web/20220715111517im_/https://thescriblerus.com/wp-content/plugins/accesspress-social-share/fonts/MyriadPro-Regular.ttf')  format('truetype'), url('/web/20220715111517im_/https://thescriblerus.com/wp-content/plugins/accesspress-social-share/fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -156,7 +156,7 @@
 }
 
 .apss-theme-1 .count:after {
-    background:url(../images/arrow.png) no-repeat;
+    background:url(/web/20220715111517im_/https://thescriblerus.com/wp-content/plugins/accesspress-social-share/images/arrow.png) no-repeat;
     width:20px;
     height:10px;
     bottom: -10px;
@@ -499,7 +499,7 @@
 }
 
 .apss-theme-2 .count:after {
-    background:url(../images/left-arrow.png) no-repeat;
+    background:url(/web/20220715111517im_/https://thescriblerus.com/wp-content/plugins/accesspress-social-share/images/left-arrow.png) no-repeat;
     width:10px;
     height:20px;
     bottom: -10px;
@@ -1228,3 +1228,18 @@
     position: relative;
     width: auto;
 }
+/*
+     FILE ARCHIVED ON 11:15:17 Jul 15, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:04:45 Jun 05, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 0.517
+  load_resource: 43.872
+  PetaboxLoader3.resolve: 33.199
+  PetaboxLoader3.datanode: 9.967
+*/

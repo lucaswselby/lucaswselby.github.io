@@ -442,12 +442,9 @@
 
 /* Sleek Carousel Styles */
 .slick-loading .slick-list {
-  background: #fff url("./ajax-loader.gif") center center no-repeat; }
+  background: #fff url("/web/20220824205159im_/https://thescriblerus.com/wp-content/plugins/addons-for-visual-composer/assets/css/ajax-loader.gif") center center no-repeat; }
 
-@media only screen and (max-width: 1024px) {
-  .slick-slider {
-    padding: 0 10px; } }
-.lvca-container .slick-prev, .lvca-container .slick-next {
+.lvca-container button.slick-prev, .lvca-container button.slick-next {
   position: absolute;
   bottom: initial;
   left: initial;
@@ -456,13 +453,9 @@
   width: 28px;
   height: 28px;
   margin: -14px 0 0; }
-  .rtl .lvca-container .slick-prev, .rtl .lvca-container .slick-next {
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    direction: ltr; }
-  .lvca-container .slick-prev, .lvca-container .slick-prev:before, .lvca-container .slick-prev:after, .lvca-container .slick-next, .lvca-container .slick-next:before, .lvca-container .slick-next:after {
+  .lvca-container button.slick-prev, .lvca-container button.slick-prev:before, .lvca-container button.slick-prev:after, .lvca-container button.slick-next, .lvca-container button.slick-next:before, .lvca-container button.slick-next:after {
     text-shadow: none;
-    background: none;
+    background: none !important;
     border: none;
     padding: 0;
     opacity: 1;
@@ -476,7 +469,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 24px;
-    color: #aaa;
+    color: #aaa !important;
     overflow: hidden;
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -485,34 +478,38 @@
     text-align: center;
     -webkit-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s; }
-  .lvca-container .slick-prev:before, .lvca-container .slick-next:before {
+  .lvca-container button.slick-prev:before, .lvca-container button.slick-next:before {
     margin: 2px;
     vertical-align: middle; }
-  .lvca-container .slick-prev:hover:before, .lvca-container .slick-prev:hover:after, .lvca-container .slick-next:hover:before, .lvca-container .slick-next:hover:after {
-    color: #888; }
-  .lvca-dark-bg .lvca-container .slick-prev:before, .lvca-dark-bg .lvca-container .slick-prev:after, .lvca-dark-bg .lvca-container .slick-next:before, .lvca-dark-bg .lvca-container .slick-next:after {
-    color: #888; }
-  .lvca-dark-bg .lvca-container .slick-prev:hover:before, .lvca-dark-bg .lvca-container .slick-prev:hover:after, .lvca-dark-bg .lvca-container .slick-next:hover:before, .lvca-dark-bg .lvca-container .slick-next:hover:after {
-    color: #aaa;
-    background: none; }
-.lvca-container .slick-prev {
+  .lvca-container button.slick-prev:hover:before, .lvca-container button.slick-prev:hover:after, .lvca-container button.slick-next:hover:before, .lvca-container button.slick-next:hover:after {
+    color: #888 !important; }
+  .lvca-dark-bg .lvca-container button.slick-prev:before, .lvca-dark-bg .lvca-container button.slick-prev:after, .lvca-dark-bg .lvca-container button.slick-next:before, .lvca-dark-bg .lvca-container button.slick-next:after {
+    color: #888 !important; }
+  .lvca-dark-bg .lvca-container button.slick-prev:hover:before, .lvca-dark-bg .lvca-container button.slick-prev:hover:after, .lvca-dark-bg .lvca-container button.slick-next:hover:before, .lvca-dark-bg .lvca-container button.slick-next:hover:after {
+    color: #aaa !important;
+    background: none !important; }
+  @media only screen and (max-width: 1024px) {
+    .lvca-container button.slick-prev, .lvca-container button.slick-next {
+      display: none !important;
+      /* Let users navigate via touch */ } }
+.lvca-container button.slick-prev {
   left: -40px; }
-  .lvca-container .slick-prev:before {
+  .lvca-container button.slick-prev:before {
     content: "\e900"; }
-.lvca-container .slick-next {
+.lvca-container button.slick-next {
   right: -40px; }
-  .lvca-container .slick-next:before {
+  .lvca-container button.slick-next:before {
     content: "\e901"; }
 .lvca-container ul.slick-dots {
   width: 100%;
   position: absolute;
   bottom: -30px;
   text-align: center;
-  padding: 0;
-  margin: 0; }
+  padding: 0 !important;
+  margin: 0 !important; }
   .lvca-container ul.slick-dots li {
-    margin: 0 8px 0 0;
-    padding: 0;
+    margin: 0 8px 0 0 !important;
+    padding: 0 !important;
     display: inline-block;
     font-size: 0; }
   .lvca-container ul.slick-dots li button {
@@ -528,14 +525,12 @@
     transition: background 0.3s ease-in-out 0s;
     font-size: 0;
     outline: none; }
-    .lvca-container ul.slick-dots li button:before {
-      display: none; }
     .lvca-dark-bg .lvca-container ul.slick-dots li button {
-      background: #888;
-      border-color: #888; }
+      background: #888 !important;
+      border-color: #888 !important; }
   .lvca-container ul.slick-dots li button:hover, .lvca-container ul.slick-dots li.slick-active button {
-    background: none;
-    border-color: #aaa; }
+    background: none !important;
+    border-color: #aaa !important; }
   .lvca-container ul.slick-dots li.slick-active button {
     width: 14px;
     height: 14px; }
@@ -665,37 +660,20 @@ input.lvca-button, button.lvca-button, a.lvca-button, .lvca-button:active, .lvca
     background-color: #fff;
     color: #333 !important; }
 
-/* --------------------------------------------------------- General Styles -------------------------------------------------- */
-.lvca-post-link-overlay {
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  width: 100%;
-  z-index: 1; }
-
-.lvca-terms a, .lvca-post-title a {
-  -webkit-transition: all 0.5s ease-out 0s;
-  transition: all 0.5s ease-out 0s; }
-
-.lvca-read-more {
-  position: relative;
-  display: inline-block;
-  font-size: 0.75rem;
-  line-height: 1;
-  text-decoration: none;
-  padding: 8px 15px;
-  margin-top: 15px;
-  -webkit-transition: all 0.5s ease-out 0s;
-  transition: all 0.5s ease-out 0s;
-  transition: all 0.5s ease-out 0s; }
-
-.lvca-post-featured-img-bg {
-  position: relative;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-bottom: 15px; }
-
 /*# sourceMappingURL=lvca-frontend.css.map */
+/*
+     FILE ARCHIVED ON 20:51:59 Aug 24, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:04:47 Jun 05, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 0.442
+  load_resource: 162.51
+  PetaboxLoader3.resolve: 115.759
+  PetaboxLoader3.datanode: 30.726 (2)
+  loaddict: 25.836
+*/

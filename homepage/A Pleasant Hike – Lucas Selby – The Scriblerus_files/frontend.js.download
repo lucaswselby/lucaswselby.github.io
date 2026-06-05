@@ -1,10 +1,19 @@
+var _____WB$wombat$assign$function_____=function(name){return (globalThis._wb_wombat && globalThis._wb_wombat.local_init && globalThis._wb_wombat.local_init(name))||globalThis[name];};if(!globalThis.__WB_pmw){globalThis.__WB_pmw=function(obj){this.__WB_source=obj;return this;}}{
+let window = _____WB$wombat$assign$function_____("window");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opener = _____WB$wombat$assign$function_____("opener");
 // function from https://halgatewood.com/how-to-customize-the-pin-it-button-for-pinterest
 function pinIt()
 {
   var e = document.createElement('script');
   e.setAttribute('type','text/javascript');
   e.setAttribute('charset','UTF-8');
-  e.setAttribute('src','https://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);
+  e.setAttribute('src','https://web.archive.org/web/20220715111516/https://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);
   document.body.appendChild(e);
 }
 
@@ -23,3 +32,20 @@ jQuery(document).ready(function ($) {
     });
 });
 
+
+}
+
+/*
+     FILE ARCHIVED ON 11:15:16 Jul 15, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:05:49 Jun 05, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 0.48
+  load_resource: 36.738
+  PetaboxLoader3.datanode: 35.812
+*/
